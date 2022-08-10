@@ -71,8 +71,8 @@ footer{
     
     
 }
-.footer_index{
-    margin-top: 10rem;
+.footer_index ,.iconosInstagram{
+   
     display: flex;
     justify-content: center;
     
@@ -86,10 +86,8 @@ footer{
   padding: 30px;
 }
 .footer_index li a{
-    color: green;
+    color: purple;
     font-size: 20px;
-    padding: 20px;
-    margin: 40px;
     text-decoration: none;
 }
 
@@ -156,5 +154,8 @@ transform: scale(2);
 .container{
     display: flex;
     justify-content: center;
+}
 
+.iconosInstagram a{
+    padding: 10px;
 }
