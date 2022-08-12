@@ -24,9 +24,10 @@
     border-style: inset;
     background-color: lightcoral;
 }
+
 body{
     background-image: url(./img/spa.jpg);
-    background-repeat: no-repeat;
+    background-repeat: no repeat;
     background-size: cover;
 }
 
@@ -68,27 +69,21 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
 footer{
     background-color: #A9C9FF;
     background-image: linear-gradient(180deg, #A9C9FF 0%, #f179d0 100%);
-    
-    
+    margin-top: 15rem;
 }
-.footer_index ,.iconosInstagram{
-   
+.footer_index ul{
     display: flex;
     justify-content: center;
-    
-}
-.footer_index nav ul{
-    display: flex;
-    list-style: none;
-
-}
-.footer_index nav ul li{
-  padding: 30px;
 }
 .footer_index li a{
     color: purple;
     font-size: 20px;
     text-decoration: none;
+}
+.footer_index ul li{
+    list-style: none;
+    padding: 10px;
+padding-bottom: 35px;
 }
 
 /*home*/
@@ -138,7 +133,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 30%, #FFCC70 66%, #
 
 }
 .titulo:hover{
-transform: scale(2);
+transform: scale(1.3);
 }
 .titulo{
     transition:all 1s;
@@ -156,6 +151,36 @@ transform: scale(2);
     justify-content: center;
 }
 
+.iconosInstagram{
+    display: flex;
+    justify-items: end;
+}
 .iconosInstagram a{
     padding: 10px;
+}
+.iconosInstagram{
+    display: flex;
+    justify-content: flex-end;
+}
+.parallax{
+    background-image: url(./img/spa.jpg);
+    height: 150px;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    padding: 4rem;
+    font-family: 'Dancing Script', cursive;;
+    font-size: 3.5rem;
+}
+
+.animate__animated .animate__bounceInLeft{
+    display: flex;
+    justify-content: center;
+
 }
